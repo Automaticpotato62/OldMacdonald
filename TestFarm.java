@@ -10,10 +10,11 @@ public class TestFarm {
         String sound2 = object2.getSound();
         System.out.println(type2 + " goes " + sound2);
         
-     Chick object3 = new Chick("Chick", "Cluck");
-      String type3 = object.getType();
-    String sound3 = object.getSound();
-    System.out.println(type3 + " goes " + sound3);
+     Chick object3 = new Chick("Chick", "Cluck", "Cheep");
+      String type3 = object3.getType();
+    String sound3 = object3.getSound();
+    String sound4 = object3.getSound2();
+    System.out.println(type3 + " goes " + sound3 + " and " + sound4);
      
     } 
 }

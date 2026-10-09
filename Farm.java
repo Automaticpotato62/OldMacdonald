@@ -2,7 +2,7 @@ public class Farm {
     private Animal[] a = new Animal[3];
     Farm(){
         a[0]= new Cow("cow","moo");
-        a[1] = new Chick("chick", "cluck");
+        a[1] = new Chick("chick", "cluck", "cheep");
         a[2] = new Pig("pig", "oink");
     }
     public void animalSounds () {
