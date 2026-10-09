@@ -14,7 +14,7 @@ public class TestFarm {
       String type3 = object3.getType();
     String sound3 = object3.getSound();
     String sound4 = object3.getSound2();
-    System.out.println(type3 + " goes " + sound3 + " and " + sound4);
+    System.out.println(type3 + " goes " + sound3 + " or " + sound4);
      
     } 
 }
