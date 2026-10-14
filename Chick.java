@@ -8,7 +8,12 @@ public class Chick implements Animal{
         this.Sound2 = Sound2;
     }
     public String getSound(){
-          return Sound;   
+          return Sound; 
+          String options[] = {"cluck", "chirp" } ;
+          Random random = new Random();
+          int randomIndex = random.nextInt(options.length);
+          String randomChoice = options[randomIndex];
+          System.out.println("Random Selection: " + randomChoice);
     }
     public String getSound2(){
          return Sound2;
@@ -16,5 +21,4 @@ public class Chick implements Animal{
     public String getType(){
         return Type;
     }
-    
 }
